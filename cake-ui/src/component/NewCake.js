@@ -28,7 +28,7 @@ const NewCake = (props) => {
     return (
               <div>
                 <div className="modalClass">
-                  <Button onClick={handleOpen}>New Cake</Button>
+                  <Button className="cakeBtn" onClick={handleOpen}>New Cake</Button>
                 </div>
 
                 <Modal show={show} onHide={handleClose}>

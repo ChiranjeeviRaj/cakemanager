@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Container } from 'reactstrap';
-import AppNavbar from './AppNavbar';
 import NewCake from './NewCake';
-import { Link } from 'react-router-dom';
 import ReactTable from 'react-table-6';
 import 'react-table-6/react-table.css';
 
@@ -38,8 +35,6 @@ class CakeList extends Component{
     }
 
       render() {
-        const {cakes, isLoading} = this.state;
-
         const cakeList = [
                     {Header: "Image",
                           Cell: (cake) => {

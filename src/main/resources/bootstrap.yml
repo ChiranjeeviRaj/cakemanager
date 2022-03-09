@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: cakemanager
+    cloud:
+      loadbalancer:
+        ribbon:
+          enable: false
+server:
+  port: 8080
